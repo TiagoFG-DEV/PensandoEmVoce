@@ -377,7 +377,7 @@ function checkScrollForFlower() {
 
   const scrollPercentage = (scrollTop + windowHeight) / docHeight;
 
-  if (scrollPercentage >= 0.975 && !flowerSpawned) {
+  if (scrollPercentage >= 0.95 && !flowerSpawned) {
     flowerSpawned = true;
     spawnFlower(); // chama sua função quando atinge ~95% do scroll
   }
@@ -395,7 +395,7 @@ document.getElementById("loadBtn").addEventListener("click", () => {
   music.play();
 
   const scrollInterval = setInterval(() => {
-    window.scrollBy(0, 0.75);
+    window.scrollBy(0, 1);
     if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight + 10)) {
       clearInterval(scrollInterval); // para o scroll ao chegar no final
     }
