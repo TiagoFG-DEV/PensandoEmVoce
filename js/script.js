@@ -395,7 +395,7 @@ document.getElementById("loadBtn").addEventListener("click", () => {
   music.play();
 
   const scrollInterval = setInterval(() => {
-    window.scrollBy(0, 0.4);
+    window.scrollBy(0, 0.75);
     if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight + 10)) {
       clearInterval(scrollInterval); // para o scroll ao chegar no final
     }
@@ -437,7 +437,7 @@ document.getElementById("loadBtn").addEventListener("click", () => {
         <img src="./css/img/3.jpeg" alt="Imagem 3">
       </div><br>
       <div class="bloco">
-        <p>"Sempre foi esforçada, batalhadora e genial, continuamente estuda em sua casa além de amar jogar beach tenis, sempre se superando a cada dia mais. Seus sonhos são gigantes e quero poder acompanhar a realização deles de pertinho.."</p>
+        <p>"Sempre foi Esforçada, Guerreira e Genial, continuamente estuda em sua casa além de amar jogar beach tenis, sempre se superando a cada dia mais. Seus sonhos são gigantes e quero poder acompanhar a realização deles de pertinho.."</p>
         <img src="./css/img/4.jpeg" alt="Imagem 4">
       </div><br>
       <div class="bloco">
@@ -469,7 +469,7 @@ document.getElementById("loadBtn").addEventListener("click", () => {
         <div id="player"></div>
       </div>
       <div class="bloco">
-        <h3>Você, Giovanna Rodrigues, é meu mais precioso bem sobre todas as coisas, Eu te amo!❤</h3>
+        <h3>Você, Giovanna Rodrigues, é meu mais precioso bem sobre todas as coisas, Eu te amo! ❤</h3>
       </div>
   `;
 
